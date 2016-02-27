@@ -8,6 +8,10 @@ var mongoose = require('mongoose'),
 
 /**
  * <%= humanizedSingularName %> Schema
+ * Add new properties to the Mongoose Schema in app/models/module-name.server.model.js
+ * Then add new properties to the angular-formly array properties in public/modules/module-name/services/module-name.form.client.service.js
+ * Then add new columns for the new properties in the HTML table in public/modules/module-name/views/list-module-name.client.view.html
+
  */
 var <%= classifiedSingularName %>Schema = new Schema({
 	name: {

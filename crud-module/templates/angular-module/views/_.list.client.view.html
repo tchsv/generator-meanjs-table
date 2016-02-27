@@ -12,6 +12,7 @@
     <div>
         <table ng-table="tableParams" show-filter="true">
             <tr ng-repeat="<%= camelizedSingularName %> in $data">
+              <!--Add new columns for the new properties in the HTML table in public/modules/module-name/views/list-module-name.client.view.html-->
                 <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">{{<%= camelizedSingularName %>.name}}</td>
                 <td>
                     <div class="table-actions">
